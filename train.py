@@ -16,5 +16,5 @@ if __name__ == '__main__':
         batch_size=4,               # 适合8G显存
         grad_accum_steps=4,         # 有效batch_size=16
         lr=2e-4,                    # 基于官方1e-4适度提升
-        output_dir='runs/train_rf-detr-small'
+        output_dir='runs/train_rf-detr-s'
     )
