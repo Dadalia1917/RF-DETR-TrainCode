@@ -175,8 +175,8 @@ cython_debug/
 
 .idea/
 
-# Deep Learning / DETR specific ignores
-# Dataset directories (do not upload)
-datasets/
-dataset/
-runs/
+# model artifacts
+rf-detr*
+output/*
+
+train_test.py
